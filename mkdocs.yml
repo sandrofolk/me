@@ -1,20 +1,20 @@
 # Informações do Projeto
-site_name: wGalleti
-site_description: 'Uteis de wGalleti'
-site_author: 'William Galleti'
-site_url: 'https://medocs.disqus.com'
+site_name: SandroFolk
+site_description: 'Uteis de Alessandro de Lima Folk'
+site_author: 'Alessandro de Lima Folk'
+site_url: 'https://sandrofolk-me.disqus.com'
 
 # Documentos e Temas
 docs_dir: 'docs'
 
 # Copyright
-copyright: '© 2017 wGalleti'
+copyright: '© 2018 Alessandro de Lima Folk'
 
 theme:
   name: 'material'
   language: 'pt'
   palette:
-    primary: 'red'
+    primary: 'green'
     accent: 'orange'
   font:
     text: 'Ubuntu'
@@ -31,11 +31,11 @@ extra:
     tokenizer: '[\s\-\.]+'
   social:
     - type: 'github'
-      link: 'https://github.com/wGalleti'
+      link: 'https://github.com/sandrofolk'
     - type: 'twitter'
-      link: 'https://twitter.com/wGalleti'
+      link: 'https://twitter.com/sandrofolk'
     - type: 'linkedin'
-      link: 'https://www.linkedin.com/in/william-galleti-6b97a833/'
+      link: 'https://www.linkedin.com/in/alessandrolimafolk/'
 
 # Extensions
 markdown_extensions:
@@ -71,6 +71,8 @@ pages:
     - 'PL/SQL':
       - 'uteis': 'oracle/plsql/uteis.md'
   - 'Desenvolvimento':
+    - 'Front-End':
+      - 'Angular': 'desenvolvimento/angular/index.md'
     - 'Python/Django':
       - 'Projeto Heroku': 'desenvolvimento/pythondjango/heroku.md'
       - 'Rest Framework': 'desenvolvimento/pythondjango/rest_framework.md'
